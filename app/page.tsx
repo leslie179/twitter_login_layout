@@ -6,7 +6,7 @@ import x from "../public/icons/x.jpg";
 export default function Home() {
   return (
     <main className="page">
-      <div className="shadow-xl border m-2 p-2 rounded-md">
+      <div className="popup-container">
         <div className="login-container">
           <div className="logo">
             <Image src={x} alt="x" width={50} height={50} />
